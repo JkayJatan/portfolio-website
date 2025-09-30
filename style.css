@@ -12,8 +12,6 @@
 html {
     font-size: 62%;
     scroll-behavior: smooth;
-
-
 }
 
 body {
@@ -91,7 +89,7 @@ section {
     width: 4rem;
     height: 4rem;
     border: .2rem solid rgb(87, 82, 82);
-    border-radius: 50%;
+    border-radius: 8px;
     color: white;
 }
 
@@ -120,7 +118,7 @@ section {
 
 .line {
     width: 100%;
-    height: 0.2rem;
+    height: 0.3rem;
     background-color: rgb(100, 99, 99);
 }
 
@@ -257,6 +255,66 @@ section {
     text-align: center;
 }
 
+#contact {
+    text-align: center;
+    background: rgba(8, 28, 46, 0.3);
+}
+
+#contact h2 {
+    padding-top: 1.5rem;
+    font-size: 4rem;
+    font-weight: 600;
+}
+#contact >p{
+    font-size: 1.5rem;
+    color: rgb(220, 220, 220);
+    margin: 1rem 0 2rem;
+}
+#contact form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact input,#contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#contact button {
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact button:hover {
+    background: #0056b3;
+}
+.copyright {
+    width: 100%;
+    height: 10vhrem;
+    text-align: center;
+    padding: 15px;
+    background: rgba(33, 32, 32, 0.9);
+    color: white;
+
+}
+
+.copyright p {
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+}
+
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -309,6 +367,30 @@ section {
     .slide {
         width: 80px;
         font-size: 40px;
+    }
+    #contact h2{
+        font-size: 3rem;
+    }
+    #contact >p{
+        font-size: 1.2rem;
+        margin: 1rem 0 1.5rem;
+    }
+    #contact form{
+        gap: 10px;
+        width: 90%;
+    }
+    .social a{
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        margin: 1rem 1rem 0.5rem;
+    }
+    #contact input,#contact textarea{
+        padding: 8px;
+        font-size: 1rem;
+    }
+    .copyright p{
+        font-size: 1.5rem;
     }
 
 
