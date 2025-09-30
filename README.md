@@ -17,5 +17,5 @@ The website is fully responsive and built with modern web technologies.
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript  
-- **Styling:** CSS / TailwindCSS / Bootstrap (update if used)  
-- **Deployment:** GitHub Pages / Vercel / Netlify (update if used)  
+- **Styling:** CSS 
+- **Deployment:** GitHub Pages / Netlify
