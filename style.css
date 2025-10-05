@@ -254,6 +254,31 @@ section {
     padding: 1rem 2rem;
     text-align: center;
 }
+.project {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project>h1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+.projectcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.projectcard{
+    width: 50rem;
+    height: 30rem;
+    border: 2px solid white;
+    color: green;
+    border-radius: 5px;
+}
 
 #contact {
     text-align: center;
@@ -439,6 +464,14 @@ section {
     }
      #contact form {
         border: 1.5px solid rgb(165, 83, 162);
+    }
+    .project>h1 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .projectcontainer{
+        flex-direction: column;
+        align-items: center;
     }
 
 
