@@ -65,7 +65,7 @@ section {
     justify-content: center;
     gap: 8rem;
     align-items: center;
-    gap: 8rem;
+    gap: 7rem;
 }
 
 .basic-introduction h1 {
@@ -254,6 +254,7 @@ section {
     padding: 1rem 2rem;
     text-align: center;
 }
+
 .project {
     display: flex;
     justify-content: center;
@@ -262,17 +263,20 @@ section {
     align-items: center;
     flex-wrap: wrap;
 }
+
 .project>h1 {
     font-size: 4.5rem;
     font-weight: 500;
 }
-.projectcontainer{
+
+.projectcontainer {
     display: flex;
     justify-content: center;
     gap: 3rem;
     flex-wrap: wrap;
 }
-.projectcard{
+
+.projectcard {
     width: 50rem;
     height: 30rem;
     border: 2px solid white;
@@ -283,7 +287,7 @@ section {
 #contact {
     text-align: center;
     background: rgba(38, 38, 38, 0.7);
-    
+
 }
 
 #contact h2 {
@@ -291,33 +295,38 @@ section {
     font-size: 3.5rem;
     font-weight: 500;
 }
-#contact >p{
+
+#contact>p {
     font-size: 1.5rem;
     color: rgb(220, 220, 220);
     margin: 1rem 0 2rem;
 }
+
 #contact form {
     max-width: 600px;
     margin: auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    background-color: rgb(0, 0,0,0.5);
+    background-color: rgb(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 10px;
     border: 2.5px solid rgb(165, 83, 162);
 }
-#contact button{
+
+#contact button {
     width: 30%;
     margin: auto;
 }
 
-#contact input,#contact textarea {
+#contact input,
+#contact textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    color: white;;
-    background-color:rgba(0, 0, 0, 0.3);
+    color: white;
+    ;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #contact button {
@@ -329,20 +338,23 @@ section {
     cursor: pointer;
     transition: 0.3s;
 }
+
 #contact button:disabled {
-      background-color: #ccc;
-      cursor: not-allowed;
-    }
+    background-color: #ccc;
+    cursor: not-allowed;
+}
 
 #contact button:hover {
     background: #023b78;
 }
-.basicinfo img{
+
+.basicinfo img {
     width: 25px;
     margin-right: 10px;
-    
+
 }
-.basicinfo{
+
+.basicinfo {
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -350,14 +362,16 @@ section {
     align-items: left;
     margin-left: 3rem;
 }
-.basicinfo div{
+
+.basicinfo div {
     display: flex;
-    
-    
+
+
     align-items: center;
     font-size: 1.2rem;
     color: rgb(200, 200, 200);
 }
+
 .copyright {
     width: 100%;
     height: 10vhrem;
@@ -386,15 +400,16 @@ section {
     }
 }
 
-@media(max-width:995px) {   
+@media(max-width:995px) {
 
     .home {
         flex-direction: column;
         margin: 5rem 4rem;
+        gap: 4rem;
     }
 
     .basic-introduction h1 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .basic-introduction h3 {
@@ -429,47 +444,59 @@ section {
         width: 80px;
         font-size: 40px;
     }
-    #contact h2{
+
+    #contact h2 {
         font-size: 3rem;
     }
-    #contact >p{
+
+    #contact>p {
         font-size: 1.2rem;
         margin: 1rem 0 1.5rem;
     }
-    #contact form{
+
+    #contact form {
         gap: 10px;
         width: 90%;
     }
-    .social a{
+
+    .social a {
         width: 3rem;
         height: 3rem;
         font-size: 1.5rem;
         margin: 1rem 1rem 0.5rem;
     }
-    #contact input,#contact textarea{
+
+    #contact input,
+    #contact textarea {
         padding: 8px;
         font-size: 1rem;
     }
-    .copyright p{
+
+    .copyright p {
         font-size: 1.5rem;
     }
-    .line{
+
+    .line {
         height: 0.2rem;
     }
-    .basicinfo{
+
+    .basicinfo {
         flex-direction: column;
-    
+
         gap: 1rem;
         align-items: left;
     }
-     #contact form {
+
+    #contact form {
         border: 1.5px solid rgb(165, 83, 162);
     }
+
     .project>h1 {
         font-size: 3rem;
         font-weight: 500;
     }
-    .projectcontainer{
+
+    .projectcontainer {
         flex-direction: column;
         align-items: center;
     }
