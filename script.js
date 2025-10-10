@@ -26,4 +26,13 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     btn.innerText = "Send Message";
   }, 5000);
 });
+window.addEventListener("load", () => {
+  AOS.init({
+    duration: 1000,
+    once: true,     
+  });
+});
+
+
+
 
