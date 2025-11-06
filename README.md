@@ -1,5 +1,5 @@
 # 🌐 Portfolio Website
-link- portfolio-website-ten-delta-76.vercel.app
+link- https://portfolio-website-ten-delta-76.vercel.app/
 
 ---
 This is my personal portfolio website showcasing my skills, projects, and experience as a **Full Stack Web Developer**.  
