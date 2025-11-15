@@ -20,8 +20,8 @@
     <div class="nav">
         <nav>
             <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#">Project</a>
+            <a href="#aboutme">About</a>
+            <a href="#project">Project</a>
             <a href="#contact">Contact</a>
         </nav>
     </div>
@@ -50,8 +50,8 @@
         </div>
     </section>
     <!-- <div class="line"></div> -->
-    <section>
-        <div class="aboutme">
+    <section id="aboutme">
+        <div class="aboutme" >
             <h1>About Me</h1>
             <h3>
                 <div>Thanks for stopping by. Read below to learn more</div>
@@ -141,7 +141,7 @@
                             </p>
                         </div>
                         <div class="innercard">
-                            <h2><img src="assets/dav.png" alt="icon"><span>Data Analysis & Visualization</span></h2>
+                            <h2><img src="assets/dav.png" alt="icon"><span>Analysis & Visualization</span></h2>
                             <p>I analyze data to uncover insights and trends that help in better decision-making. I use
                                 tools like Matplotlib, Seaborn, and Pandas to create clear visualizations and
                                 dashboards. My
@@ -161,27 +161,30 @@
                 </div>
 
     </section>
-    <!-- <section>
-        <div class="project">
-            <h1>
-                Recent Projects
-            </h1>
-            <div class="projectcontainer">
-                <div class="projectcard">
-
-                </div>
-                <div class="projectcard">
-
-                </div>
-                <div class="projectcard">
-
-                </div>
-                <div class="projectcard">
-
-                </div>
+    <section id="project">
+        <h1 class="heading">
+            My Recent Projects
+        </h1>
+        <div class="grid">
+            <div><div class="projectcontainer">
+            <a href="https://github.com/JkayJatan/ott-clone.git"><div class="projectcard"></div></a>
+            <div>
+                <div class="prodis"><h2>Netflix clone</h2>
+            <a href="https://github.com/JkayJatan/ott-clone.git">Repository link</a></div>
+            
             </div>
-        </div>
-    </section> -->
+        </div></div>
+        <div class="projectcontainer">
+            <a href="https://calculator-three-nu-70.vercel.app/"><div class="projectcard2"></div></a>
+            <div>
+                <div class="prodis"><h2>Calculator</h2>
+            <a href="https://calculator-three-nu-70.vercel.app/">Live Demo</a></div>
+            
+            </div>
+        </div></div>
+            </div>
+        
+    </section>
     <div class="line"></div>
     <footer id="contact">
         <h2>Contact</h2>
@@ -215,10 +218,8 @@
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script>
         (function () {
-            emailjs.init("iGWqKRzICO9hlM4l9"); // replace with your EmailJS public key
-        })();
+            emailjs.init("iGWqKRzICO9hlM4l9");})();
     </script>
-
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
