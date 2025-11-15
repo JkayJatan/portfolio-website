@@ -270,7 +270,32 @@ section {
   background-image: url("assets/Screenshot\ 2025-11-15\ 183300.png");
   background-size: cover;
 }
-
+.projectcard2{
+  border: 2px solid rgb(99, 73, 136);
+  border-radius:10px;
+  width: 35rem;
+  height: 20rem;
+  background-image: url("assets/Screenshot\ 2025-11-15\ 191535.png");
+  background-size: cover;
+}
+.prodis{
+  background-color: rgb(23, 23, 23);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  align-items: center;
+}
+.prodis >a{
+  color: #cd4d67;
+  background-color: #333333;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+.grid{
+  display: flex;
+  gap: 5rem;
+}
 #contact {
   text-align: center;
   background: rgba(38, 38, 38, 0.7);
@@ -369,7 +394,6 @@ section {
   text-align: center;
   align-items: center;
 }
-
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -379,7 +403,6 @@ section {
     transform: translateX(-50%);
   }
 }
-
 @media (max-width: 995px) {
   .home {
     flex-direction: column;
@@ -472,5 +495,8 @@ section {
   .heading{
     font-size: 2.6rem;
     font-weight: 500;
+  }
+  .grid{
+    flex-direction: column;
   }
 }
